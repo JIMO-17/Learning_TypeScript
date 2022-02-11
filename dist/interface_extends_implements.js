@@ -15,13 +15,6 @@ interface Customer {
     name: string;
     country: string;
 } */
-/*Necesita de todas las propiedases incluso las heredadas */
-// const emp: Employee = {}
-const emp = {
-    dept: "",
-    id: 0,
-    name: ""
-};
 class Zoo {
     constructor() {
         this.name = "Ally";
