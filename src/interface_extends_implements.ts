@@ -16,7 +16,7 @@ interface Customer {
 } */
 
 // mejor de la siguiente manera: 
-interface Person {
+/* interface Person {
     id: number;
     name: string;
 }
@@ -25,15 +25,15 @@ interface Employee extends Person {
 }
 interface Customer extends Person {
     country: string;
-}
+} */
 
 /*Necesita de todas las propiedases incluso las heredadas */
 // const emp: Employee = {}
-const emp: Employee = {
+/* const emp: Employee = {
     dept: "",
     id: 0,
     name: ""
-}
+} */
 /* emp.id = 100
 emp.name = "John"
 emp.dept = "San Francisco" */
